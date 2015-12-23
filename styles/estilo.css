@@ -1,23 +1,5 @@
 <!--reset-->
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
-    margin: 0px;
-    padding: 0px;
-}
-<!--fin de reset-->
-body {
-    font-family: 'Trebuchet MS',Helvetica,Arial,sans-serif;
-    color: #141414;
-    word-wrap: break-word;
-    line-height: 1.28;
-}
-body {
-    font: 13px/1.231 arial,helvetica,clean,sans-serif;
-}
-html {
-    color: #000;
-		background-color:#F0FEFF;
 
-}
 #section {
     margin: 10px auto;
 	width: 50%;

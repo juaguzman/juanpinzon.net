@@ -10,7 +10,6 @@ $publicado="Publicado";
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Sistema de comentarios php mysql jquery</title>
 <link type="text/css" rel="stylesheet" href="styles/estilo.css" />
-<!--[if lte IE 6]><link rel="stylesheet" href="css/estilo.css" /><![endif]-->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
 <script>
 	
