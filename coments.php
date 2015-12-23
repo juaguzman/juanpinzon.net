@@ -146,16 +146,16 @@ while ($row=mysql_fetch_array($datos)) { //Bucle para ver todos los registros
 <form action="" method="post" id="form1" name="form1">
 
 <div>
-<input name="nombre" type="text" class="comments-input-text required" tbindex="1" Title="Ingres su nombre &rarr;" >
+    <input name="nombre" type="text" required class="comments-input-text required" tbindex="1" Title="Ingres su nombre &rarr;" >
 <label for="nombre"><small>Nombre (max 20 caract.)</small></label>
 </div>
 <div>
-<input name="email" type="email" class="comments-input-text required" tabindex="1" title="ingrese su email &rarr;" >
+    <input name="email" required type="email" class="comments-input-text required" tabindex="1" title="ingrese su email &rarr;" >
 <label for="email"><small>email (ingrese correo valido)</small></label>
 </div>
 <label for="comentarios"><small>(min 260 caract.)</small></label>
 <div>
-<textarea name="comentarios" cols="40" rows="3" class="comments-input-textarea required" tabindex="4" title="Ingrese su comentario &rarr;" ></textarea>
+    <textarea name="comentarios"  required cols="40" rows="3" class="comments-input-textarea required" tabindex="4" title="Ingrese su comentario &rarr;" ></textarea>
 </div>
 <br />
 
