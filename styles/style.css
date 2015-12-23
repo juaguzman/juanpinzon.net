@@ -11,10 +11,10 @@ header
     height: 800px;
     margin-bottom: 5px;
     padding: 5px;
-    -webkit-filter:grayscale(90%);
-filter:alpha(opacity=50);
+/*    -webkit-filter:grayscale(90%);*/
+/*filter:alpha(opacity=50);
     -moz-opacity:0.5;
-    opacity:0.5;
+    opacity:0.5;*/
  
 }
 #galeria{ background-color: black; }
