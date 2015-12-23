@@ -19,9 +19,11 @@ and open the template in the editor.
     <body>
         
         <div id="curato" align="center">
-            <table>
+            <table id="tb">
                 <tr>
-                    <td><h4>Sobrenatural es el nuevo proyecto que presenta el Cultor
+                    <td class="first"> <br/>
+                        <br/>
+                        <br/>Sobrenatural es el nuevo proyecto que presenta el Cultor
                             Leonardo Zarama donde a través de una 
             alegoría a la naturaleza nos presenta lo ancestral y místico en un 
             permanente ritual de vida enmarcado en planos materiales e 
@@ -30,23 +32,22 @@ and open the template in the editor.
             elementos propios que se conjugan dentro de una carroza, en la cual
             se proyecta la idealización de la flora y fauna en el concepto 
             central. Se concibe a través de la implementación de nuevas técnicas 
-            de producción con la utilización de materiales en este </h4></td> 
+            de producción con la utilización de materiales en este </td> 
             
-            <td><h4>El equipo de trabajo presente en 
+            <td><br/>
+                        <br/>
+                        <br/>El equipo de trabajo presente en 
             el transcurso de las actividades dentro de la escena de construcción
             ha sido parte importante1en la creación e inclusión de las nuevas 
             técnicas planteadas anteriormente sintetizando la congruencia del 
             concepto impreso en la carroza donde prima el significado del 
             discurso y la importancia de la relación entre la muestra artesanal 
             y la pretensión del artesano con la aplicación de nuevos métodos e 
-            innovación de materiales. </h4></td>
+            innovación de materiales.</td>
                 </tr>
             </table>
         </div>
-       <div id="titulo" align="center">
-            <h1> GALERIA</h1>
-           
-        </div>
+     
         
         <div align="center" id="galeria">    
 <?php      

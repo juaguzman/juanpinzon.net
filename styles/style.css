@@ -47,13 +47,27 @@ footer
 
 td {
     font-size: 14px;
-    line-height: 20px;
-    padding: 0 18px;
+    line-height: 15px;
+    padding: 0 25px;
+    margin-top: 10px;
     vertical-align: top;
     width: 50%;
 }
 
+#pi
+{
+    margin-left: 50px;
+}
 
-td {
-    border-right: 5px solid #4BB495  ;
+
+td.first 
+{
+    border-right: 5px solid #f7f7f7  ;
+}
+
+table
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
