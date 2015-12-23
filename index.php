@@ -13,28 +13,33 @@ and open the template in the editor.
     </head>
     
     <body>
-        <header>
-            <span class="opacar">
-      <img src="imagen/banner-01.png" width="100%" height="600px" >
-      </span>
+       
+ <header id="foto" style="background: url(imagen/banner-01.png) no-repeat left top;background-size: 100% 90%" >
+     <div id="jpz" >
+         <img id="jpz" src="imagen/p3.png" width="500px" height="200px">
+         
+     </div>
+      
+    
     </header>
-        <div>
-            <h1> GAleria</h1>
+        <div id="titulo" align="center">
+            <h1> GALERIA</h1>
            
         </div>
         
-        <div align="center">    
+        <div align="center" id="galeria">    
 <?php      
       // Incluir la clase   
-      include_once('./gallery_1.php');
+      include_once('./gallery.php');
       
       $mygallery = new gallery(); // Crear una nueva instancia
       $mygallery->loadFolder('capturas'); // Leer las imágenes de la carpeta "galley_images"
-      $mygallery->show('100%', 200, 0); // Mostrar la galería en este lugar en un area de 500px      
+      $mygallery->show('100%', 250, 150, 0); // Mostrar la galería en este lugar en un area de 500px      
 ?>    
     </div>
         <footer>
-            
+            COPYRAIGT
+            <img src="imagen/footerCP.png" width="100%" height="80px">
         </footer>
          <script src="js/lightbox-plus-jquery.js"></script>
     </body>

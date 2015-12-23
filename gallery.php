@@ -32,7 +32,7 @@ class gallery
       sort($this->files);
    }
 
-   function show($area = 500, $width = 1000, $space = 10){
+   function show($area, $width, $height , $space){
    
       //---Crear la galería con los nombres de todos los archivos
       $total = count($this->files);
@@ -42,7 +42,7 @@ class gallery
       
          //---Situar los thumbnails
          for($i = 0; $i < $total; $i++){      
-            echo '<img onclick="javascript:this.width=450;this.height=338" ondblclick="javascript:this.width=100;this.height=80" src='.$this->path.'/'.$this->files[$i].' width='.$width.' height='.$width.' border="0">';
+            echo '<img onclick="javascript:this.width=450;this.height=338" ondblclick="javascript:this.width=100;this.height=80" src='.$this->path.'/'.$this->files[$i].' width='.$width.' height='.$height.' border="0">';
          }
 ?>        
                 <script language="javascript">
