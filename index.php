@@ -14,7 +14,7 @@ and open the template in the editor.
     
     <body>
        
- <header id="foto" style="background: url(imagen/banner-01.png) no-repeat left top;background-size: 100% 90%" >
+ <header id="foto" style="background: url(imagen/banner-01.png) no-repeat left top;background-size: 100% 100%" >
      <div id="jpz" >
          <img id="jpz" src="imagen/p3.png" width="500px" height="200px">
          
