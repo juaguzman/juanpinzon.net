@@ -1,0 +1,13 @@
+#imagen
+{
+    position: relative;
+    width:"100%"; 
+    height:"600px";
+    
+}
+#texto
+{
+    position: absolute;
+    color: white;
+    font-size: 24pt;
+}
