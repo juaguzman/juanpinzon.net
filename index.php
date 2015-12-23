@@ -62,7 +62,7 @@ and open the template in the editor.
         <br>
         <br>
         <div id="titulo" align="center">
-            <h1> ENTREVISTA</h1>
+            <h1 style="color: #cccccc"> ENTREVISTA</h1>
            
         </div>
         <br>
