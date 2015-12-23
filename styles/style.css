@@ -8,3 +8,8 @@ h2{font-family: sans-serif; };
 h3{font-family: sans-serif; };
 h4{font-family: sans-serif; };
 div{color: red; background-color: black; }
+
+.opacar img {
+filter:alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;}

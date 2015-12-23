@@ -13,9 +13,9 @@ and open the template in the editor.
     
     <body>
         <header>
-       
+            <span class="opacar">
       <img src="imagen/banner-01.png" width="100%" height="600px" >
-      
+      </span>
     </header>
         <div>
             buenas noches nueva yorck
