@@ -17,7 +17,7 @@ header
     opacity:0.5;*/
  
 }
-#galeria{ background-color: black; }
+#galeria{ background-color: white; }
 
 .opacar img {
 filter:alpha(opacity=50);
@@ -27,7 +27,7 @@ opacity: 0.5;
 
 footer
 {
-    background-color: black;
+    background-color: white;
 }
 
 #jpz

@@ -43,10 +43,7 @@ and open the template in the editor.
                 </tr>
             </table>
         </div>
-       <div id="titulo" align="center">
-            <h1> GALERIA</h1>
-           
-        </div>
+       
         
         <div align="center" id="galeria">    
 <?php      
@@ -58,6 +55,18 @@ and open the template in the editor.
       $mygallery->show('100%', 250, 150, 0); // Mostrar la galería en este lugar en un area de 500px      
 ?>    
     </div>
+        <br>
+        <br>
+        <div id="titulo" align="center">
+            <h1> ENTREVISTA</h1>
+           
+        </div>
+        <br>
+        <br>
+        <div id="video">
+            <iframe width="723" height="350" src="https://www.youtube.com/embed/cLT8Jo-dT6U" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
         <footer>
             <img src="imagen/footerCP.png" width="100%" height="80px">
         </footer>
