@@ -44,3 +44,16 @@ footer
     background: black;
     
 }
+
+td {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 18px;
+    vertical-align: top;
+    width: 50%;
+}
+
+
+td {
+    border-right: 5px solid #4BB495  ;
+}
