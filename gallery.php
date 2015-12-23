@@ -42,7 +42,7 @@ class gallery
       
          //---Situar los thumbnails
          for($i = 0; $i < $total; $i++){      
-            echo '<img onclick="javascript:this.width=450;this.height=338" ondblclick="javascript:this.width=100;this.height=80" src='.$this->path.'/'.$this->files[$i].' width='.$width.' height='.$height.' border="0">';
+            echo '<a class="example-image-link" href="'.$this->path.'/'.$this->files[$i].'" data-lightbox="example-set" data-title="Haga clic en la mitad derecha de la imagen para avanzar, o mitad izquierda para retroseder"><img src='.$this->path.'/'.$this->files[$i].' width='.$width.' height='.$height.'/></a>';
          }
 ?>        
                 <script language="javascript">

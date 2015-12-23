@@ -16,7 +16,7 @@ and open the template in the editor.
     <body>
         <header>
             <span class="opacar">
-                <div style="background: url(imagen/banner-01.png) no-repeat left top;  height: 520px; width: 100%;" />
+                <div style="background: url(imagen/banner.png) no-repeat left top;  height: 520px; width: 100%;" />
   
                 <h4 style="color: #FFF;    position: absolute; width: 240px;">
     Primera línea del texto<br />segunda línea del texto

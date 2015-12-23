@@ -32,7 +32,7 @@ class gallery
       sort($this->files);
    }
 
-   function show($area = '100%', $width = 1000, $space = 10){
+   function show($area = '100%', $width, $height, $space){
    
       //---Crear la galería con los nombres de todos los archivos
       $total = count($this->files);
@@ -43,7 +43,7 @@ class gallery
          //---Situar los thumbnails
          for($i = 0; $i < $total; $i++){      
            
-            echo '<a class="example-image-link" href="'.$this->path.'/'.$this->files[$i].'" data-lightbox="example-set" data-title="Haga clic en la mitad derecha de la imagen para avanzar, o mitad izquierda para retroseder"><img src='.$this->path.'/'.$this->files[$i].' width='.$width.' height='.$width.'/></a>';
+            echo '<a class="example-image-link" href="'.$this->path.'/'.$this->files[$i].'" data-lightbox="example-set" data-title="Haga clic en la mitad derecha de la imagen para avanzar, o mitad izquierda para retroseder"><img src='.$this->path.'/'.$this->files[$i].' width='.$width.' height='.$height.'/></a>';
          }
 ?>        
                 <script language="javascript">
